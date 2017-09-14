@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>iOS</title>
+<link rel="stylesheet" href="iOS.css">
+</head>
+<body>
+<div class="myslideShow">
+  <center><img class="slideShow" src="ioss.jpg" width="1000px">
+  <img class="slideShow" src="ioslogo.jpg" style="width:1200px"></center>
+
+  <button class="myslideShow" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="myslideShow" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("slideShow");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+<br>
+<ul id="nav">
+  <li><a href="iPhone.html">iPhone</a></li>
+  <li><a href="iOS.html">iOS</a></li>
+  <li><a href="Pricing.html">Pricing</a></li>
+  <li><a href="Contact.html">Contact</a></li>
+  <li><a href="About Me.html">About Me</a></li>
+</ul>
+<center><h1>History of iOS</h1>
+<img src="io.jpg" style="float:left;width:500px;height:300px;">
+<img src="io.jpg" style="float:right;width:500px;height:300px;">
+<p>Apple launched iOS—then called iPhone OS—on June 29, 2007, with the very first iPhone. Since then, the mobile operating system has gone through some major upgrades. But it didn’t happen overnight. Ever year in the summer, Apple has reinvented the OS, adding new features and redefining what’s possible on all its iDevices.</p>
+</center>
+<br>
+<br>
+<br>
+
+<center><u><h2>iPhone OS 1</h2></u></center>
+<div1>In 2007, Steve Jobs introduced the iPhone and iPhone OS 1 along with it. During the press conference, Jobs referred to the operating system as OS X because it shared a similar Unix core compared to the full-fledged desktop version of the operating system.</div1>
+<br>
+<br>
+<center><u><h2>iOS 4</h2></u></center>
+<div1>First off, the name. Apple officially dropped the “Phone” part of its mobile OS, which makes sense considering the software now ran on iPods, iPhones, and the new shiny iPad. But the two big blockbuster features were FaceTime and Multitasking.</div1>
+<br>
+<br>
+<center><u><h2>iOS 5</h2></u></center>
+<div1>iOS was growing up and added three features that make it hard to imagine how we ever lived without them: Notification Center, iMessage, and Siri. Aside from these big updates, Apple introduced (love it or hate it) iCloud and a more functional lock screen.</div1>
+<br>
+<br>
+<center><u><h2>iOS 6</h2></u></center>
+<div1>Apple launched its own mapping service, Apple Maps, along with Passbook, for storing plane tickets, coupons, and other digital ephemera. Siri also got some much needed updates, and Apple no longer bundled the YouTube app on the iPhone.</div1>
+<br>
+<br>
+<center><u><h2>iOS 7</h2></u></center>
+<div1> The operating system was completely overhauled with a more simple design, flatter icons, and Helvetica font. Apps were given edge-to-edge designs and the operating system included a new parallax-scrolling home screen. Apple also introduced the frosted glass Control Center, for quick access to options like flashlight, Bluetooth, and another new feature, AirDrop. iOS 7 also added the new Photos app, iTunes Radio, and card-based multitasking. iPhone also introduced Touch ID, though that was more of a hardware feature of the iPhone 5s.</div1>
+<br>
+<br>
+<center><u><h2>iOS 9</h2></u></center>
+<div1>iOS 9 focused obsessively on three things, making Siri smarter, Apple Music, and 3D Touch (above). Siri’s brain got an upgrade with what Apple called Proactive, which brought back the full panel Spotlight feature now with intelligence comparable to Google Now. Apps like Notes, Transit, and News got a major overhaul, iPads received multi-window support, and software download sizes were mercifully much smaller than previous releases.</div1>
+<br>
+<br>
+<br>
+<a href="index.html"><center><img src="homepage.jpg" width=65px></center>
+<center><a href="#top"><span style="font-size: large">To top</span></a></center>
+
+</body>
+</html>

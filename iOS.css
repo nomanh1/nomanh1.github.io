@@ -1,0 +1,52 @@
+#nav {
+width:950px;
+margin:0 auto;
+}
+#nav li {
+float:left;
+}
+#nav a {
+display:block;
+text-align:center;
+width:150px;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover {
+    background-color: #AA818F;
+}
+div1 {
+  font-size: 20px;
+}
+h2 {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: lightgrey;
+}
+div {
+    background: url(ios.jpg);
+    background-size: 25%;
+    border: 2px solid #000102;
+}
+
+p {
+    background-color: white;
+    width: 300px;
+    border: 20px solid black;
+    padding: 25px;
+    margin: 25px;
+}
